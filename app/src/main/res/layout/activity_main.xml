@@ -28,15 +28,13 @@
         tools:layout_editor_absoluteX="16dp">
 
         <Button
+            style="@style/CustomText"
             android:id="@+id/btCategory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#F9B2C9"
             android:text="Categorias"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold"
             app:cornerRadius="300dp" />
 
         <Button
